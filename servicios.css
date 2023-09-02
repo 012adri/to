@@ -1,0 +1,30 @@
+/* Tu CSS existente aquí */
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .gallery-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  
+  .gallery img {
+    max-width: calc(50% - 2cm); /* 50% menos el espacio total de 4 cm */
+    height: auto;
+    margin: 0 2cm; /* Espacio de 2 cm en cada lado de la imagen */
+  }
+  .gallery-row{
+    max-width: calc(50% - 2cm); /* 50% menos el espacio total de 4 cm */
+    height: auto;
+    margin: 0 2cm; /* Espacio de 2 cm en cada lado de la imagen */
+  }
+  ul li a:hover { 
+    background-color: #eccf4e;}
+  
+  
+  

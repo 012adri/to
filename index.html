@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Página de Inicio</title>
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <script type="text/javascript">
+        document.oncontextmenu= function(){
+            return false;
+        }
+    </script>
+  <div class="navbar">
+    <div class="logo">
+      <img src="imagenes/logo.PNG" alt="Logo">
+    </div>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="#">Productos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <body>
+    
+  
+    <div class="content">
+      <!-- Aquí puedes agregar el contenido principal de tu página -->
+    </div>
+  
+<footer class="footer">
+    <p>&copy; 2023 Nombre de Tu Empresa. Todos los derechos reservados.</p>
+  </footer>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyDtYZoE-oyaOxd-lJVr-73wMrLjW7g8AJI",
+      authDomain: "tdo-estabien.firebaseapp.com",
+      projectId: "tdo-estabien",
+      storageBucket: "tdo-estabien.appspot.com",
+      messagingSenderId: "72791564422",
+      appId: "1:72791564422:web:b619add1c14bf1ddd33107",
+      measurementId: "G-YP4LGL7HDR"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+</body>
+</html>
