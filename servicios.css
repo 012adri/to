@@ -25,6 +25,14 @@
   }
   ul li a:hover { 
     background-color: #eccf4e;}
+    .card { 
+      display:flex;
+      justify-content:center;
+      align-items:center;}
+      .conteiner1 { 
+        display:flex;
+        justify-content:center;
+        align-items:center;}
   
   
   
